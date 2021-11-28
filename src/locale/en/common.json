@@ -1,3 +1,9 @@
 {
-  "hi": "hello world"
+  "hi": "hello world",
+  "nest_1": {
+    "nest_2": {
+      "firstname": "Harry",
+      "lastname": "Potter"
+    }
+  }
 }

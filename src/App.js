@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>{t('hi')}</div>
+        <div>{t('nest_1.nest_2.firstname')}</div>
       </header>
     </div>
   );
