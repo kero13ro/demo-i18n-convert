@@ -15,7 +15,7 @@ function convertOneLayer(dataObj) {
         extraLayer(item[key], `${prefix}>${key}`);
         continue;
       }
-      res[`${prefix}{{${key}`] = value;
+      res[`${prefix}>${key}`] = value; //todo
     }
   }
   extraLayer(dataObj);

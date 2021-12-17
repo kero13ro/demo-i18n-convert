@@ -32,7 +32,7 @@ const sheet = doc[0];
 /** 依據檔案名稱拆分物件 */
 const resData = {};
 for (const { path: url, tw, en } of Object.values(sheet)) {
-  const [filePath, key] = url.split(".json/");
+  const [filePath, key] = url.split(".json>");
 
   if (!resData[filePath]) resData[filePath] = {};
   resData[filePath][key] = [tw, en];
