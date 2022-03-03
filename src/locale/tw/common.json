@@ -2,8 +2,9 @@
   "hi": "哈囉世界",
   "nest_1": {
     "nest_2": {
-      "firstname": "哈利",
-      "lastname": "波特"
+      "firstName": "波特",
+      "lastName": "哈利"
     }
-  }
+  },
+  "category.comp1.online": "已上線"
 }

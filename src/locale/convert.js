@@ -3,7 +3,7 @@ const xl = require("excel4node");
 
 // /account/setting.json{{title
 // /common.json{{hi
-// /common.json>nest_1>nest_2{{firstname
+// /common.json>nest_1>nest_2{{firstName
 
 /** 配合 excel 結構，遞迴將 json 多層結構轉為單層。ex. faq.json */
 function convertOneLayer(dataObj) {
