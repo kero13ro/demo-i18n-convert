@@ -19,4 +19,4 @@
 
 ### `node src/locale/excel2json.js`
 
-將目前所有翻譯檔案轉為 excel 表
+將 excel 匯出為 json 並產生對應資料夾
